@@ -150,37 +150,21 @@ body, html {
 }
 
 a {
-		-moz-transition: border-color 0.2s ease-in-out;
-		-webkit-transition: border-color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		outline: 0;
-		color: white;
+	-moz-transition: border-color 0.2s ease-in-out;
+	-webkit-transition: border-color 0.2s ease-in-out;
+	transition: border-color 0.2s ease-in-out;
+	border-bottom: dotted 1px;
+	outline: 0;
+	color: white;
         font-size: 15px;
-		font-weight: 700;		
-        font-weight: 200;
+	font-weight: 400;		
         margin-bottom: 20px;
-		text-decoration: none;
-		border-color: transparent;
-		 font-family: sans-serif;
-	}
+	text-decoration: none;
+	border-color: transparent;
+}
     
 a:hover {
-	border-color: transparent;
-	animation: kakka 3s 1;		
-}
-		@keyframes kakka {
-  0%{
-    color: white;
-  }
-  30%{
-    letter-spacing: 1px;
-	color: white;
-  }
-  85%{
-    letter-spacing: 2px;
-	color: white;
-  }
+color: gray;	
 }
 
 *{
